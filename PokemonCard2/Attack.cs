@@ -9,6 +9,8 @@ namespace PokemonCard2
     public class Attack
     {
         public string Name { get; set; }
+
+        public PokemonType Type { get; set; }
         public string ADescription { get; set; }
         public int Damage { get; set; }
 
@@ -17,6 +19,8 @@ namespace PokemonCard2
             Name = name;
             ADescription = aDescription;
             Damage = damage;
+            
+
         }
     }
 }

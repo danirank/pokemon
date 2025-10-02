@@ -48,7 +48,7 @@
                 <TextBlock x:Name="HP" HorizontalAlignment="Right" FontWeight="Bold" FontSize="24" Text ="000"/>
             </Border>
             <Border Grid.Column="3">
-                <Image Margin="0,0,5,0" x:Name="TypeIcon" Source="/Images/WaterIcon.jpg" Height="20" Width="20" HorizontalAlignment="Right"/>
+                <TextBlock x:Name="Icon" Text="Icon" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Border>
 
         </Grid>
@@ -85,9 +85,8 @@
                     <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
-                <Image Margin="10,0,0,0" Grid.Column ="0" VerticalAlignment="Bottom"  Source="/Images/WaterIcon.jpg" Height="20" Width="20" HorizontalAlignment="Left"></Image>
-                <Image Grid.Column ="1" VerticalAlignment="Bottom" Source="/Images/WaterIcon.jpg" Height="20" Width="20" HorizontalAlignment="Center"></Image>
-                <Image Grid.Column ="2" VerticalAlignment="Bottom"  Source="/Images/WaterIcon.jpg" Height="20" Width="20" HorizontalAlignment="Right"></Image>
+                <TextBlock x:Name="AttackOneIcon" Margin="10,0,0,0" Grid.Column ="0" VerticalAlignment="Bottom"  Text="Icon" Height="20" Width="20" HorizontalAlignment="Left"/>
+
             </Grid>
 
           
@@ -123,10 +122,8 @@
                     <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
-                <Image Margin="10,0,0,0" Grid.Column ="0" VerticalAlignment="Bottom"  Source="/Images/WaterIcon.jpg" Height="20" Width="20" HorizontalAlignment="Left"></Image>
-                <Image Grid.Column ="1" VerticalAlignment="Bottom" Source="/Images/WaterIcon.jpg" Height="20" Width="20" HorizontalAlignment="Center"></Image>
-                <Image Grid.Column ="2" VerticalAlignment="Bottom"  Source="/Images/WaterIcon.jpg" Height="20" Width="20" HorizontalAlignment="Right"></Image>
-                <Image Grid.Column ="3" VerticalAlignment="Bottom"  Source="/Images/WaterIcon.jpg" Height="20" Width="20" HorizontalAlignment="Right"></Image>
+                <TextBlock x:Name="AttackTwoIcon" Margin="10,0,0,0" Grid.Column ="0" VerticalAlignment="Bottom"  Text="Icon" Height="20" Width="20" HorizontalAlignment="Left"/>
+
             </Grid>
             
             
